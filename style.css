@@ -1,0 +1,27 @@
+:root {
+  main: #37517e;
+}
+
+.hero {
+  background-color: #37517e;
+}
+nav a {
+  color: white !important;
+}
+
+.animate-img {
+  animation: img-move 1.5s linear infinite alternate;
+}
+
+@keyframes img-move {
+  from {
+    transform: translatey(0);
+  }
+  to {
+    transform: translatey(-15px);
+  }
+}
+
+.btn {
+  border: 2px solid #0fcaf0;
+}
